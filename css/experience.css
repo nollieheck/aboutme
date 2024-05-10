@@ -158,7 +158,7 @@ a:hover {
     }
 
     .fondo-chico {
-      display: in-block;
+      display: block;
       position: fixed;
       top: 0;
       left: 0;
