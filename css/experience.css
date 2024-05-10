@@ -25,6 +25,9 @@ body {
       z-index: -1;
 }
 
+.fondo-chico {
+    display: none;
+}
 
 /* CAJA DE TEXTOS {ancho, posición} */
 .contenedor {
@@ -151,6 +154,16 @@ a:hover {
 
     /* FONDO PNG */
     .fondo {
-      left: -250px;
+      display: none;
+    }
+
+    .fondo-chico {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
     }
 }
