@@ -153,10 +153,6 @@ a:hover {
     }
 
     /* FONDO PNG */
-    .fondo {
-      display: none;
-    }
-
     .fondo-chico {
       display: block;
       position: fixed;
@@ -167,4 +163,8 @@ a:hover {
       object-fit: cover;
       z-index: -1;
     }
+
+    .fondo {
+        display: none;
+      }
 }
